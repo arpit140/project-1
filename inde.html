@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- given below is font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Personal piortfolio website</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">MY folio<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">blog</a></li>
+                
+            </ul>
+            <div class="links">
+                <a href="#"><i class='fab fa-linkedin'></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multiText"></span></h1>
+            <p> My name is Arpit kumar singh. i am pursuing M.C.A. I am a quick learner, critical thinker, and detail-oriented individual who can work effectively both independently and in a team environment. I am passionate about innovation and always seeking new ways to improve existing systems and processes.</p>
+            <div class="btns">
+                <button>download cv</button>
+                <button>hire me</button>
+            </div>
+        </div>
+        <div class="cols cols1">
+            <div class="imgbox">
+                <img src="splash.png" id="splash">
+                <img src="image.png">
+            </div>
+        </div>
+        </div>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["coder","gamer","learner"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+
+
+        })
+    </script>
+
+</body>
+</html>
